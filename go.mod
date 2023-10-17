@@ -8,25 +8,25 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/huaweicloud/huaweicloud-sdk-go-obs v3.22.11+incompatible
-	github.com/huaweicloud/huaweicloud-sdk-go-v3 v0.1.11
+	github.com/huaweicloud/huaweicloud-sdk-go-v3 v0.1.61
 	github.com/opensourceways/community-robot-lib v0.0.0-20230111083119-2d2c0df320bb
-	github.com/opensourceways/kafka-lib v0.0.0-20230905120934-4961d2b76841
+	github.com/opensourceways/kafka-lib v0.0.0-20231016135231-bf184b2d51e7
 	github.com/opensourceways/redis-lib v0.0.0-20230830095926-13d246a18179
-	github.com/opensourceways/server-common-lib v0.0.0-20230208064916-61fc43dfb8db
+	github.com/opensourceways/server-common-lib v0.0.0-20231016134644-4bd7efe825a9
 	github.com/opensourceways/xihe-finetune v0.0.0-20230703130658-2d606e66b81d
 	github.com/opensourceways/xihe-grpc-protocol v0.0.0-20230317111524-e67370a0eb26
 	github.com/opensourceways/xihe-inference-evaluate v0.0.0-20230703131431-fce5fcec1fc8
-	github.com/opensourceways/xihe-training-center v0.0.0-20230703124658-67fdc0c1cc65
+	github.com/opensourceways/xihe-training-center v0.0.0-20231013012949-b50d59e518d3
 	github.com/panjf2000/ants/v2 v2.5.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/swaggo/files v1.0.1
 	github.com/swaggo/gin-swagger v1.6.0
 	github.com/swaggo/swag v1.8.12
 	github.com/xanzy/go-gitlab v0.73.1
-	go.mongodb.org/mongo-driver v1.10.0
-	gorm.io/driver/postgres v1.5.0
-	gorm.io/gorm v1.24.7-0.20230306060331-85eaf9eeda11
-	k8s.io/apimachinery v0.26.1
+	go.mongodb.org/mongo-driver v1.12.0
+	gorm.io/driver/postgres v1.5.2
+	gorm.io/gorm v1.25.4
+	k8s.io/apimachinery v0.25.3
 	sigs.k8s.io/yaml v1.3.0
 )
 
@@ -62,7 +62,7 @@ require (
 	github.com/hashicorp/go-uuid v1.0.3 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
-	github.com/jackc/pgx/v5 v5.3.0 // indirect
+	github.com/jackc/pgx/v5 v5.3.1 // indirect
 	github.com/jcmturner/aescts/v2 v2.0.0 // indirect
 	github.com/jcmturner/dnsutils/v2 v2.0.0 // indirect
 	github.com/jcmturner/gofork v1.7.6 // indirect
@@ -82,8 +82,8 @@ require (
 	github.com/montanaflynn/stats v0.0.0-20171201202039-1bf9dbcd8cbe // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/pierrec/lz4/v4 v4.1.18 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
+	github.com/tjfoc/gmsm v1.4.1 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.11 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
@@ -95,7 +95,7 @@ require (
 	golang.org/x/net v0.14.0 // indirect
 	golang.org/x/oauth2 v0.6.0 // indirect
 	golang.org/x/sync v0.3.0 // indirect
-	golang.org/x/sys v0.11.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/text v0.12.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	golang.org/x/tools v0.7.0 // indirect
@@ -103,7 +103,7 @@ require (
 	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4 // indirect
 	google.golang.org/grpc v1.53.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
-	gopkg.in/ini.v1 v1.66.6 // indirect
+	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
