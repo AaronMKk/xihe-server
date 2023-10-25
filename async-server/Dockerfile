@@ -12,4 +12,6 @@ ENV BIGMODEL_WUKONGHF="test"
 
 COPY  --from=BUILDER /go/src/github.com/opensourceways/xihe-server/async-server/async-server /opt/app
 
+RUN chmod 550 /opt/app/async-server
+
 ENTRYPOINT ["/opt/app/async-server"]

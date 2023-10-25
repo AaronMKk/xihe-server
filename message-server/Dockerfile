@@ -10,4 +10,6 @@ WORKDIR /opt/app/
 
 COPY  --from=BUILDER /go/src/github.com/opensourceways/xihe-server/message-server/message-server /opt/app
 
+RUN chmod 550 /opt/app/message-server
+
 ENTRYPOINT ["/opt/app/message-server"]
